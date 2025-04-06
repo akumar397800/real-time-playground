@@ -1,0 +1,24 @@
+.coin {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    transition: transform 0.2s;
+    z-index: 5;
+  }
+  
+  .coin:hover {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+  
+  .value-1 { background-color: gold; }
+  .value-2 { background-color: orange; }
+  .value-3 { background-color: red; }
